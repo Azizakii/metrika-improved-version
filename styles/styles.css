@@ -4,6 +4,7 @@
 @import "../styles/services.css";
 @import "../styles/projects.css";
 @import "../styles/intro.css";
+@import "../styles/reviews.css";
 
 
 
@@ -27,12 +28,14 @@ body {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
+.title {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 31px;
+    font-style: 18px;
+    line-height: 25px;
+    font-size: 18px;
+}
 
 
 
@@ -40,42 +43,13 @@ body {
 
 @media (max-width: 991px) {
     .container {
-        padding: 0 15px;
-    }
-    .main-title {
-        width: 690px;
-        font-size: 60px;
-        line-height: 60px;
-    }
-    .title-text {
-        width: 430px;
-        bottom: 30px;
-        left: 42px;
-    }
-    .title-image{
-        height: 400px;
+        
     }
     .hero {
         margin-bottom: 120px;
     }
-    .about__text {
-        font-size: 35px;
-        line-height: 48px;
-    }
-    .projects {
-        margin-top: 120px;
-    }
-    .item__title {
-        font-size: 25px;
-        line-height: 34px;
-        margin-top: 10px;
-    }
-    .item {
-        margin-bottom: 80px;
-    }
-    .project__button {
-        margin-bottom: 100px;
-    }
+    
+
 }
 
 
@@ -85,63 +59,11 @@ body {
         padding-left: 13px;
         padding-right: 12px;
     }
-
-    .main-title {
-        width: 100%;
-        font-size: 30px;
-        line-height: 32px;
-        margin-bottom: 25px;
-    }
-    .title-text {
-        width: 312px;
-        font-size: 16px;
-        line-height: 22px;
-        bottom: 15px;
-        left: 15px;
-    }
     .hero {
         margin-bottom: 80px;
     }
     .title {
         margin-bottom: 20px;
     }
-    .title-image {
-        height: 304px;
-    }
-    .about__text {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .about__button {
-        height: 51px;
-        width: 100%;
-        font-size: 16px;
-        line-height: 51px;
-    }
-    .projects {
-        margin-top: 80px;
-    }
-    .item__image {
-        height: 250px;
-    }
-    .item__title {
-        font-size: 18px;
-        line-height: 25px;
-    }
-    .item__link {
-        font-size: 16px;
-        line-height: 22px;
-        margin-top: 10px;
-    }
-    .item {
-        margin-bottom: 49px;
-    }
-    .project__button {
-        height: 100px;
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .project__button {
-        margin-bottom: 80px;
-    }
+    
 }
