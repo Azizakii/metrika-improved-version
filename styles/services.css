@@ -43,7 +43,7 @@
     font-size: 30px;
     font-weight: 200;
     line-height: 41px;
-    letter-spacing: -3%;
+    letter-spacing: -0.03em;
 }
 
 .service__button {
@@ -78,7 +78,6 @@
     }
     .service__title {
         font-style: 25px;
-
     }
 }
 
