@@ -11,23 +11,17 @@
 html {
     scroll-behavior: smooth;
 }
-
-
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%;
     background-color: white;
     box-sizing: border-box;
 }
-
-
-
 .container {
     max-width: 1180px;
     padding: 0 15px;
     margin: 0 auto;
 }
-
 .title {
     text-transform: uppercase;
     font-weight: 400;
@@ -36,24 +30,11 @@ body {
     line-height: 25px;
     font-size: 18px;
 }
-
-
-
-
-
 @media (max-width: 991px) {
-    .container {
-        
-    }
     .hero {
         margin-bottom: 120px;
     }
-    
-
 }
-
-
-
 @media (max-width: 767px) {
     .container {
         padding-left: 13px;
