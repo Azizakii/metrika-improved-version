@@ -32,13 +32,6 @@
 }
 
 
-.title {
-    font-weight: 400;
-    margin-bottom: 31px;
-    font-style: 18px;
-    line-height: 25px;
-    font-size: 18px;
-}
 
 .about__text {
     max-width: 1050px;
@@ -81,6 +74,10 @@
     .hero {
         margin-bottom: 120px;
     }
+    .about__text {
+        font-size: 35px;
+        line-height: 48px;
+    }
 }
 
 
@@ -105,5 +102,19 @@
     }
     .hero {
         margin-bottom: 80px;
+    }
+    
+    .title-image {
+        height: 304px;
+    }
+    .about__text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .about__button {
+        height: 51px;
+        width: 100%;
+        font-size: 16px;
+        line-height: 51px;
     }
 }
