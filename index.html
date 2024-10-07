@@ -16,7 +16,7 @@
 <body>
     <!-- <header class="header">
         <div class="container">
-            <nav>
+            <nav class="header-nav">
                 <ul class="nav">
                     <li>
                         <a href="#" class="logo-link">
@@ -64,21 +64,27 @@
     <section class="projects">
         <div class="container">
             <h2 class="title" id="projects">ПРОЕКТЫ</h2>
-            <ul>
+            <ul class="projects__box">
                 <li class="item">
-                    <img src="resourses/project1.png" alt="room" class="item__image">
+                    <div class="item__box">
+                        <img src="resourses/project1.png" alt="room" class="item__image">
+                    </div>
                     <p class="item__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
                     <a href="#" class="item__link">Подробнее →</a>
                 </li>
 
                 <li class="item">
-                    <img src="resourses/project2.png" alt="room" class="item__image">
+                    <div class="item__box">
+                        <img src="resourses/project2.png" alt="room" class="item__image">
+                    </div>
                     <p class="item__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
                     <a href="#" class="item__link">Подробнее →</a>
                 </li>
 
                 <li class="item">
-                    <img src="resourses/project3.png" alt="room" class="item__image">
+                    <div class="item__box">
+                        <img src="resourses/project3.png" alt="room" class="item__image">
+                    </div>
                     <p class="item__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
                     <a href="#" class="item__link">Подробнее →</a>
                 </li>
@@ -97,28 +103,28 @@
                         <p class="service__price">от 2500₽/м²</p>
                         <img src="resourses/service1.png" alt="project" class="service__image">
                     </div>
-                        <p class="service__title">Планировочное решение</p>
+                        <h3 class="service__title">Планировочное решение</h3>
                 </li>
                 <li class="service__item">
                     <div class="service__block">
                         <p class="service__price">от 3000₽/м²</p>
                         <img src="resourses/service2.png" alt="project" class="service__image">
                     </div>
-                        <p class="service__title">Дизайн-проект</p>
+                        <h3 class="service__title">Дизайн-проект</h3>
                 </li>
                 <li class="service__item">
                     <div class="service__block">
                         <p class="service__price">от 30 000₽/мес</p>
                         <img src="resourses/service3.png" alt="project" class="service__image">
                     </div>
-                        <p class="service__title">Авторский надзор</p>
+                        <h3 class="service__title">Авторский надзор</h3>
                 </li>
                 <li class="service__item">
                     <div class="service__block">
                         <p class="service__price">5% от стоимости</p>
                         <img src="resourses/service4.png" alt="project" class="service__image">
                     </div>
-                        <p class="service__title">Комплектация</p>
+                        <h3 class="service__title">Комплектация</h3>
                 </li>
             </ul>
             <button href="#" class="service__button">Заказать услугу</button>
@@ -154,34 +160,89 @@
         </div>
     </section>
 
-    <!-- <section>
-        <div class="section-image">
-            <p class="section-text">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+
+    <section class="gallery-section">
+        <div class="gallery">
+            <div class="title-wrapper">
+                <div class="container">
+                    <p class="title gallery__title">Галерея проектов</p>
+                </div>
+            </div>
+            <div class="gallery__slides">
+                <div class="gallery__slide gallery__slide_active">
+                    <div class="gallery__text-wrapper">
+                        <div class="container">
+                            <h3 class="gallery__text">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+                        </div>
+                    </div>
+                    <img src="resourses/gallery-item1.png" alt="room" class="gallery__img">
+                </div>
+                <div class="gallery__slide">
+                    <div class="gallery__text-wrapper">
+                        <div class="container">
+                            <h3 class="gallery__text">Проект гостиной в ЖК Маяк</h3>
+                        </div>
+                    </div>
+                    <img src="resourses/gallery-item2.png" alt="room" class="gallery__img">
+                </div>
+                <div class="gallery__slide">
+                    <div class="gallery__text-wrapper">
+                        <div class="container">
+                            <h3 class="gallery__text">Визуализация кухни-гостиной в частном доме</h3>
+                        </div>
+                    </div>
+                    <img src="resourses/gallery-item3.png" alt="room" class="gallery__img">
+                </div>
+                <div class="gallery__slide">
+                    <div class="gallery__text-wrapper">
+                        <div class="container">
+                            <h3 class="gallery__text">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
+                        </div>
+                    </div>
+                    <img src="resourses/gallery-item4.png" alt="room" class="gallery__img">
+                </div>
+            </div>
+            <div class="gallery__controls-wrapper">
+                <div class="container">
+                    <div class="gallery__controls">
+                        <button class="gallery__control-prev"></button>
+                        <button class="gallery__control-next"></button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="container">
-        <h2 class="title title-contacts" id="contacts">КОНТАКТЫ</h2>
-        <p class="number">
-            <a class="telNumber" href="tel:++7 935  895-45-35">+7 935  895-45-35</a>
-        </p>
-        <p class="mail">
-            <a class="mailto" href="mailto:hello@mail.com">hello@mail.com</a>
-        </p>
+    <section class="contacts">
+        <div class="container">
+            <h2 class="title title-contacts" id="contacts">КОНТАКТЫ</h2>
+            <div class="contacts-wrapper">
+                <p class="number">
+                    <a class="telNumber" href="tel:++7 935  895-45-35">+7 935  895-45-35</a>
+                </p>
+                <p class="mail">
+                    <a class="mailto" href="mailto:hello@mail.com">hello@mail.com</a>
+                </p>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
-        <div class="nav__footer"></div>
-            <a href="#aboutUs" class="footer__link active__link" >О НАС</a>
-            <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
-            <a href="#services" class="footer__link">УСЛУГИ</a>
-            <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
+        <div class="container">
+            <div class="footer-inner">
+                <nav class="nav">
+                    <a href="#aboutUs" class="footer__link active__link" >О НАС</a>
+                    <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
+                    <a href="#services" class="footer__link">УСЛУГИ</a>
+                    <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
+                </nav>
+            </div>
             <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
         </div>
-    </footer>  -->
+    </footer> 
 
             
-
+    <script src="gallery.js"></script>
 
 
 
