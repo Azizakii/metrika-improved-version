@@ -1,0 +1,64 @@
+.contacts-wrapper {
+    display: flex;
+    gap: 104px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    margin-bottom: 160px;
+}
+
+.telNumber {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+.telNumber:before {
+    content: '';
+    display: block;
+    background-image: url('../resourses/phone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 13px;
+    height: 22px;
+}
+
+.mail::before {
+    content: '';
+    display: block;
+    background-image: url('../resourses/mail.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 20px;
+    height: 22px;
+}
+
+.mailto {
+    color: rgb(18, 18, 18);
+    opacity: 0.5;
+    text-decoration: none;
+    border-bottom: #000000 solid 2px;
+}
+
+
+@media (max-width: 961px) {
+    .contacts-wrapper {
+        font-size: 45px;
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts-wrapper {
+        flex-direction: column;
+        gap: 23px;
+    }
+    .telNumber:before {
+        margin-bottom: 21px;
+    }
+    .mail::before {
+        margin-bottom: 21px;
+    }
+}

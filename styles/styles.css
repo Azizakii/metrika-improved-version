@@ -1,0 +1,71 @@
+@import "../styles/header.css";
+@import "../styles/footer.css";
+@import "../styles/contacts.css";
+@import "../styles/services.css";
+@import "../styles/projects.css";
+@import "../styles/intro.css";
+@import "../styles/reviews.css";
+@import "../styles/gallery.css";
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 31px;
+    font-style: 18px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+
+
+
+
+@media (max-width: 961px) {
+    .container {
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+    .hero {
+        margin-bottom: 120px;
+    }
+    
+
+}
+
+
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+    .hero {
+        margin-bottom: 80px;
+    }
+    .title {
+        margin-bottom: 20px;
+    }
+    
+}
