@@ -54,7 +54,7 @@
     bottom: 162px;
     z-index: 100;
     gap: 20px;
-    left: 125px;
+    width: 90%;
 }
 
 .gallery__controls {
