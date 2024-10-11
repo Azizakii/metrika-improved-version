@@ -4,12 +4,12 @@
     background-color: rgb(18, 18, 18);
 }
 
-.footer-inner {
+.footer__inner {
     display: flex;
     justify-content: center;
 }
 
-.nav {
+.footer-nav {
     width: 450px;
     display: flex;
     justify-content: space-between;

@@ -54,7 +54,8 @@
     bottom: 162px;
     z-index: 100;
     gap: 20px;
-    width: 90%;
+    width: 95%;
+    margin-left: 40px;
 }
 
 .gallery__controls {
@@ -109,12 +110,16 @@
         height: 408px;
     }
     .gallery__controls-wrapper {
+        padding: 0;
         bottom: 189px;
     }
     .gallery__controls {
         justify-content:space-between;
-        width: 100%;
+        margin-left: -35px;
         gap: 0;
+    }
+    .gallery__title {
+        margin-left: 0;
     }
     .gallery__text {
         font-size: 19px;
