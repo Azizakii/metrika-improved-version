@@ -52,4 +52,7 @@
         font-size: 13px;
         line-height: 18px;
     }
+    .wrapper-nav {
+        width: 280px;
+    }
 }
