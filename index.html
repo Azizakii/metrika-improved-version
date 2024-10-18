@@ -42,7 +42,7 @@
     </header>
 
     <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class="burger__content">
             <div class="burger-wrapper">
                 <a href="#" class="burger-logo-link">
                     <img src="resourses/logo.png" alt="logo" class="burger-logo">
@@ -63,7 +63,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="burger__contacts">
+                <div class="burger__contacts js-burger__content">
                     <div class="burger__contacts-text">для связи:</div>
                     <div class="burger__contacts-text">+7 935 895-45-35</div>
                     <div class="burger__contacts-text">hello@mail.com</div>
@@ -160,18 +160,18 @@
                 </li>
             </ul>
 
-            <button href="#" class="service__button js-btn">Заказать услугу</button>
+            <button href="#" class="service__button js-btn" type="submit">Заказать услугу</button>
 
             <div class="js-popup popup">
                 <div class="js-popup__content popup__content">
                     <p class="popup__title">Заказать услугу</p>
                     <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
-                    <div class="input-wrapper">
+                    <form class="input-wrapper">
                         <input type="text" class="input" placeholder="Имя">
                         <input type="text" class="input" placeholder="Электронная почта">
                         <input type="text" class="input" placeholder="Номер телефона">
                         <button class="popup__btn">Отправить</button>
-                    </div>
+                    </form>
                     <div class="js-popup__close-btn popup__close-btn"></div>
                 </div>
             </div>
@@ -183,7 +183,7 @@
             <h2 class="title" id="services">отзывы</h2>
             <ul class="reviews__row">
                 <li class="reviews__col">
-                    <h5 class="reviews__title">Ксения, проект 65 кв.м.</h5>
+                    <h3 class="reviews__title">Ксения, проект 65 кв.м.</h3>
                     <div class="reviews__box">
                         <p class="reviews__text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше!</p>
                         <p class="reviews__text">Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!</p>
@@ -264,14 +264,14 @@
     <section class="contacts">
         <div class="container">
             <h2 class="title title-contacts" id="contacts">КОНТАКТЫ</h2>
-            <div class="contacts-wrapper">
-                <p class="number">
+            <ul class="contacts-wrapper">
+                <li class="number">
                     <a class="telNumber" href="tel:++7 935  895-45-35">+7 935  895-45-35</a>
-                </p>
-                <p class="mail">
+                </li>
+                <li class="mail">
                     <a class="mailto" href="mailto:hello@mail.com">hello@mail.com</a>
-                </p>
-            </div>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -279,10 +279,20 @@
         <div class="container">
             <div class="footer__inner">
                 <nav class="footer-nav">
-                    <a href="#aboutUs" class="footer__link active__link" >О НАС</a>
-                    <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
-                    <a href="#services" class="footer__link">УСЛУГИ</a>
-                    <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
+                    <ul class="wrapper-nav">
+                        <li>
+                            <a href="#aboutUs" class="footer__link active__link" >О НАС</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer__link">УСЛУГИ</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
             <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>

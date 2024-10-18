@@ -148,5 +148,9 @@
 }
 
 @media (max-width: 767px) {
-
+    .burger__content {
+        width: 50%;
+        height: 100%;
+        background-color: #fff;
+    }
 }

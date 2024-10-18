@@ -1,3 +1,7 @@
+.contacts {
+    margin-bottom: 160px;
+}
+
 .contacts-wrapper {
     display: flex;
     gap: 104px;

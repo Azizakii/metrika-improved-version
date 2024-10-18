@@ -24,7 +24,8 @@
 
 .service__block {
     position: relative;
-    max-width: 569px;   
+    max-width: 569px;  
+    height: 388px; 
 }
 
 .service__price {
@@ -100,7 +101,7 @@
 
 .popup__content {
     position: relative;
-    width: 777px;
+    max-width: 777px;
     max-height: 100%;
     overflow-y: scroll;
     background-color: #fff;
